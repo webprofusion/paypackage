@@ -20,11 +20,15 @@ The following model is a broad suggestion as to how package management platforms
 # Package Management Subscriptions
 
 ## Onboarding organisation via developers
-The developer of a software application begins building his app using common tools. When installing a recommended package to achieve this task the package manager console shows the message `If using this package for development of a commercial application (for a business), please configure your organisations subscription key in your package manager.`. This could be referred to as 'nag-ware', as the developer is not obstructed from using the software, but compelled to enroll his organisation in the subscription system.
+The developer of a software application begins building his app using common tools. When installing a recommended package to achieve this task the package manager console shows the message:
 
-The developer then informs his project manager/line manager that they need to use this package (and it's dependencies) and should get a subscription to the package management system. The developer provides a referral link and as soon as his organisation sets up their billing for the subscriotion
+> A subscription is required if using this package for the development of a commercial application (for a business), please configure your organisations subscription key in your package manager.
 
-The organisation creates a subscription with the package management system (or a 3rd party which manages this for them). The organisation will now pay monthly for all package usage. 
+This could be referred to as a 'nag-ware' license, as the developer is not obstructed from using the software, but compelled to enroll his organisation in the subscription system. This is commonly referred to a 'Asking for the Sale' and is the single most key step in converting a free user to a paid user.
+
+The developer then informs his project manager/line manager that they need to use this package (and it's dependencies) and should get a subscription to the package management system.
+
+The organisation creates a subscription with the package management system (or a 3rd party which manages this for them). The organisation will now pay monthly for all package usage. The organisation can now issue authentication keys to use their subscription.
 
 ## Why will the organisation join?
 The organisation will most likely join because the developer said they needed to. If the developer does not state it as a requirement to the organisation then they will not join. Some organisations will resist joining, others will join willingly. Compared to the status quo, there is no new disadvantage to the package owner/platform if an organisation fails to join.
@@ -50,10 +54,11 @@ The organisation will most likely join because the developer said they needed to
  
 ### Advantages
 - Simple monthly billing for the organisation related to their own usage.
-- Already a familiar model for organisations with cloud subscriptions
-- Only one cost justification exercise
-- Package owner gets funded and can distrubted to maintainers.
-- Package management system gets funded
+- Already a familiar model for organisations with cloud subscriptions.
+- Only one cost justification exercise.
+- Package owner gets funded and can distributed to maintainers.
+- Package management system gets funded.
+- Not being able to pay does not disadvantage a developer.
 
 ### Problems
 
@@ -63,3 +68,6 @@ The following issues are the most obvious:
 - Disputes over rewards to contributors will be resolved through unspecified means. Possibly the package manager needs to hold funds when code contributions become disputed and standard process for abitration would be required.
 - Forking a package, re-branding it and then promoting it to achieve higher usage means the original package owner loses out. This may need to be actively discouraged or a penalty system introduced  e.g.:
   - a dispute has been raised, your package is 90% similar to x, so 90% of your earnings will go to x until that changes etc.
+
+
+Discussions, suggestions, PRs welcome.
