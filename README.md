@@ -52,27 +52,29 @@ The organisation will most likely join because the developer said they needed to
 
 ## Earnings
 
-- Package download earnings for popular packages could be substantial depending on the % of users converted, e.g webpack $0.01 USD per download for ~1M per day = $10,000 
-- free/discounted downloads for registered charities? (although there is no enforced need for them to subscribe at all)
-- package management system will take a standard % from package earnings to fund their services.
+- Package management system will take a standard % from package earnings to fund their services.
+- Package download earnings for popular packages could be substantial depending on the % of users
+converted, e.g `1M downloads per day of webpack @ $0.01 USD = $10,000`
  
-### Advantages
+## Advantages
 
 - Simple monthly billing for the organisation related to their own usage.
 - Already a familiar model for organisations with cloud subscriptions.
 - Only one cost justification exercise.
-- Package owner gets funded and can distributed to maintainers.
+- Package owner gets funded and can distributed to maintainers. 
+    - Ongoing maintenance for commonly referenced packages is unlikely to be a long term problem.
 - Package management system gets funded.
 - Not being able to pay does not disadvantage a developer.
 
-### Problems
+## Problems
 
 The following issues are the most obvious:
+
 - Would cached use of a package from a local package manager cache count or not? It probably should count in some way but perhaps not as much as a full download.
 - Disputes over package ownership will be resolved through unspecified means.
-- Disputes over rewards to contributors will be resolved through unspecified means. Possibly the package manager needs to hold funds when code contributions become disputed and a standard process for abitration would be required.
+- Disputes over rewards to contributors will be resolved through unspecified means. Possibly the package manager needs to hold funds when code contributions become disputed and a standard process for arbitration would be required.
 - Forking a package, re-branding it and then promoting it to achieve higher usage means the original package owner loses out. This may need to be actively discouraged or a penalty system introduced  e.g.:
   - a dispute has been raised, your package is 90% similar to x, so 90% of your earnings will go to x until that changes etc.
-
+- Other aspects of the idea may be too naive, suggestions and solutions required.
 
 *Discussions, suggestions, PRs welcome.*
