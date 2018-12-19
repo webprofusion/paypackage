@@ -1,4 +1,5 @@
-# paypackage - paying for packages via package management systems
+# paypackage
+## paying for packages via package management systems
 Open discussion on issues related to the idea of voluntarily paid OSS usage through package management subscriptions.
 
 The objective of this repo is to correlate ideas for approaches to paying maintainers, via package management, with an emphasis on simplicity.
@@ -20,6 +21,7 @@ The following model is a broad suggestion as to how package management platforms
 # Package Management Subscriptions
 
 ## Onboarding organisation via developers
+
 The developer of a software application begins building his app using common tools. When installing a recommended package to achieve this task the package manager console shows the message:
 
 > A subscription is required if using this package for the development of a commercial application (for a business), please configure your organisations subscription key in your package manager.
@@ -31,6 +33,7 @@ The developer then informs his project manager/line manager that they need to us
 The organisation creates a subscription with the package management system (or a 3rd party which manages this for them). The organisation will now pay monthly for all package usage. The organisation can now issue authentication keys to use their subscription.
 
 ## Why will the organisation join?
+
 The organisation will most likely join because the developer said they needed to. If the developer does not state it as a requirement to the organisation then they will not join. Some organisations will resist joining, others will join willingly. Compared to the status quo, there is no new disadvantage to the package owner/platform if an organisation fails to join.
 
 ## Billing
@@ -48,11 +51,13 @@ The organisation will most likely join because the developer said they needed to
 - Packages not opt-ed in to the earning will have their monthly earnings absorbed by the platform in exchange for hosting.
 
 ## Earnings
-- Package download earnings for popular packages could be substantial e.g webpack $0.01 USD per download for ~1M per day = $10,000 
+
+- Package download earnings for popular packages could be substantial depending on the % of users converted, e.g webpack $0.01 USD per download for ~1M per day = $10,000 
 - free/discounted downloads for registered charities? (although there is no enforced need for them to subscribe at all)
 - package management system will take a standard % from package earnings to fund their services.
  
 ### Advantages
+
 - Simple monthly billing for the organisation related to their own usage.
 - Already a familiar model for organisations with cloud subscriptions.
 - Only one cost justification exercise.
@@ -63,11 +68,11 @@ The organisation will most likely join because the developer said they needed to
 ### Problems
 
 The following issues are the most obvious:
-- Would cached use of a package from a local package manager cache count or not? It probably should count in some way but perhaps not as much as full download.
+- Would cached use of a package from a local package manager cache count or not? It probably should count in some way but perhaps not as much as a full download.
 - Disputes over package ownership will be resolved through unspecified means.
-- Disputes over rewards to contributors will be resolved through unspecified means. Possibly the package manager needs to hold funds when code contributions become disputed and standard process for abitration would be required.
+- Disputes over rewards to contributors will be resolved through unspecified means. Possibly the package manager needs to hold funds when code contributions become disputed and a standard process for abitration would be required.
 - Forking a package, re-branding it and then promoting it to achieve higher usage means the original package owner loses out. This may need to be actively discouraged or a penalty system introduced  e.g.:
   - a dispute has been raised, your package is 90% similar to x, so 90% of your earnings will go to x until that changes etc.
 
 
-Discussions, suggestions, PRs welcome.
+*Discussions, suggestions, PRs welcome.*
