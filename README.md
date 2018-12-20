@@ -104,6 +104,10 @@ A: If your scenario cannot be covered by opting-out or donating proceeds, please
 
 A: Do not opt-in.
 
+**Q: My popular package is mostly copy and pasted from other peoples work and bits of Stack Overflow**
+
+A: Do not opt-in, unless you've shuffled it around a bit and renamed all the variables (joke). Either way money vs. copyright do not mix well. Donating all the proceeds to charity may be agreeable to unwitting contributors. The safest option in this case is to not opt-in. This is not legal advice and IANAL.
+
 **Q: This would be too complex and expensive to implement for my package management platform.**
 
 A: Do not implement the model, or start/use an open source solution.
