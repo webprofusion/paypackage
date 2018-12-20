@@ -87,12 +87,14 @@ Disputes over rewards to contributors will be resolved through unspecified means
 
 Forking a package, re-branding it and then promoting it to achieve higher usage means the original package owner loses out. This may need to be actively discouraged or a penalty system introduced  e.g.:
   - a dispute has been raised, your package is 90% similar to x, so 90% of your earnings will go to x until that changes etc.
+  
+Copying (not forking) a package and re-branding it may be allowed by your current package/library license. In the future people may decide to choose licenses with copyright restrictions to safeguard their rights as a contributor, this may in turn affect whether or not other packages choose them as a dependency.
 
 In all cases, non-resolvable disputes would be resolved by opting out the package, returning it to the free model.
 
-Topics involving money create conflict and this proposed model will be no different. If in doubt, opt-out.
+Topics involving money create conflict and this proposed model will be no different. Legal disputes will happen. If in doubt, opt-out.
 
-Other aspects of the idea may be considered too naive, please raise an issue with the scenario that's not covered.
+Other aspects of the model may be considered too naive, please raise an issue with the scenario that's not covered.
 
 ## Frequently Asked Questions
 
@@ -123,6 +125,14 @@ A: You can opt-in and donate your allocation of the proceeds.
 **Q: I gave my package to someone else to maintain, now they will make millions.**
 
 A: You can opt-in to receive your allocation as a contributor.
+
+**Q: My library was removed as a dependency from a popular package. I'm losing a lot of money.**
+
+A: This is an unfortunate side-effect of the model.
+
+**Q: My library was copied into a popular package so it's no longer a dependency. I'm losing a lot of money.**
+
+A: If your library license allowed this then there is likely nothing you can do except raise this publicly for the maintainers to morally defend.
 
 **Q: Most organizations won't pay.**
 
